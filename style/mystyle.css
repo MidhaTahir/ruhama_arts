@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.name h1 {
+  padding: 0%;
+  margin: 40px;
+  text-align: center;
+  line-height: 0.5;
+}
+
+.name h1 small {
+  font-size: 20px;
+}
+
+.name a {
+  color: #000;
+}
+
+.name a:link {
+  text-decoration: none;
+}
+
+.second .nav-link {
+  color: #000000;
+  font-size: 1.5em;
+}
+
+.second .nav-link:hover {
+  color: #ff6c6c;
+}
+
+.intro {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.intro h1 {
+  font-family: "Caveat", cursive;
+  font-size: 3em;
+}
+
+.intro p {
+  font-family: "Caveat", cursive;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.card2 {
+  text-align: center;
+  padding: 0px 50px;
+}
+
+.txt-type .txt {
+  border-right: 0.1rem solid #777;
+  color: #ff6c6c;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff6c6c;
+  border-radius: 6px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+}
+
+.foot {
+  list-style-type: none;
+}
+
+.foot li {
+  display: inline;
+}
+
+@media screen and (min-width: 1500px) {
+  .logo {
+    width: 500px;
+  }
+  .intro h1 {
+    font-size: 80px;
+  }
+  .intro p {
+    font-size: 50px;
+  }
+  .second .nav-link {
+    font-size: 3em;
+  }
+  .name h1 {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 800px) {
+  .logo {
+    width: 500px;
+  }
+  .intro h1 {
+    font-size: 70px;
+  }
+  .intro p {
+    font-size: 40px;
+  }
+}
+/*# sourceMappingURL=mystyle.css.map */
